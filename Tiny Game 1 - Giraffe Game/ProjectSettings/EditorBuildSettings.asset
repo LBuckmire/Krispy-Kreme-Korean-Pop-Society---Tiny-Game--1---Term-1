@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Endgame.unity
     guid: 391ab623a76d13b489a58391c31ce522
+  - enabled: 1
+    path: Assets/Scenes/InstructionMenu.unity
+    guid: 17c5caf24fd61fc4895238facec8f3dc
   m_configObjects: {}
