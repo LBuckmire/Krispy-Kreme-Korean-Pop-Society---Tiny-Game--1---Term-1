@@ -6,9 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/LiamScene1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Mainmenu.unity
+    guid: 9736753f88286464a8460daae5439f90
   - enabled: 1
-    path: Assets/Scenes/LiamScene2.unity
-    guid: dc88ad89a141e3943abd36491ff8a338
+    path: Assets/Scenes/Level1.unity
+    guid: 33970fdcd6bbfb04b978ce049ca22fd3
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 61ecf15e51ab8fd48bc5e1fbf814be1f
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 60ddbca48aaa78545a6aa10475e4274d
+  - enabled: 1
+    path: Assets/Scenes/Endgame.unity
+    guid: 391ab623a76d13b489a58391c31ce522
   m_configObjects: {}
