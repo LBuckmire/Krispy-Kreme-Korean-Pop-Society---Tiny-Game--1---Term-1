@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         rigbody = GetComponent<Rigidbody2D>();
+        gameObject.name = "Player";
     }
     #endregion
 

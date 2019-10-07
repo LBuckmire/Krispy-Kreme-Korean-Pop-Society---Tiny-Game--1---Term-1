@@ -10,6 +10,8 @@ public class TimerChangescene : MonoBehaviour {
 
     private Text theText; // This allows the user to edit the text in the user interface of the text section
 
+    public string loadscene1;
+
     #region Timer
     // Use this for initialization
     void Start () {
@@ -25,10 +27,11 @@ public class TimerChangescene : MonoBehaviour {
 
         if (StartTimer <= 0) // this if statement means that if the timer hits 0 load the following scene 
         {
-            SceneManager.LoadScene("PP_Level2");
+            SceneManager.LoadScene(loadscene1);
 
         }
 
 	}
     #endregion
+
 }

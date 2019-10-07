@@ -5,7 +5,7 @@ using UnityEngine;
 public class Destroyfallingblock : MonoBehaviour
 {
     #region Destroy Object
-    //public AudioClip CollisAudio; // This is where you add your audio clip (remove if wrong)
+    public AudioClip CollisAudio; // This is where you add your audio clip (remove if wrong)
     //private AudioSource audioSource;
 
     void Start()
@@ -15,8 +15,8 @@ public class Destroyfallingblock : MonoBehaviour
         //audioSource = GetComponent<AudioSource>();
         //audioSource.playOnAwake = false;
         //audioSource.clip = CollisAudio;
-        //GetComponent<AudioSource>().playOnAwake = false; // Doesn't play on start (delete if wrong)
-        //GetComponent<AudioSource>().clip = CollisAudio; // Selects an audioclip to play (delete if wrong)
+        GetComponent<AudioSource>().playOnAwake = false; // Doesn't play on start (delete if wrong)
+        GetComponent<AudioSource>().clip = CollisAudio; // Selects an audioclip to play (delete if wrong)
     }
 
 
@@ -32,13 +32,13 @@ public class Destroyfallingblock : MonoBehaviour
     // Activates audio on collision (delete if wrong)
 
 
-   /* void OnCollisionEnter2D(Collision2D collision)
+    /*void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.name == "Player")
         {
-            audioSource.clip = CollisAudio;
-            audioSource.Play();
-            //GetComponent<AudioSource>().Play();
+            //audioSource.clip = CollisAudio;
+            //audioSource.Play();
+            GetComponent<AudioSource>().Play();
         }   
     }*/
     #endregion

@@ -46,7 +46,7 @@ public class Healthcontrol : MonoBehaviour
                 Lives1.gameObject.SetActive(false);
                 Lives2.gameObject.SetActive(false);
                 Lives3.gameObject.SetActive(false);
-                Time.timeScale = 0;
+                //Time.timeScale = 0;
                 break;
 
         }
